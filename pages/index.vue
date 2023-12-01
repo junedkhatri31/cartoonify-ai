@@ -2,7 +2,7 @@
     <div class="h-screen flex flex-col">
         <AppHeader />
         <div class=" mt-8 flex items-center justify-center">
-            <div class="flex flex-row gap-36 flex-wrap justify-center">
+            <div class="mb-36 flex flex-row gap-36 flex-wrap justify-center">
                 <div class="bg-[#363636] md:h-96 md:w-96 h-80 w-80 rounded-xl">
                     <FileUpload v-if="!imageFileBase64" @file-uploaded="onFileUpload" />
                     <div v-else class="flex items-center justify-center rounded-xl relative overflow-clip h-full">
