@@ -1,23 +1,23 @@
-# cartoonify-ai
+# Cartoonify AI
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Using Cartoonify AI, you can generate cartoon version of an image.
+
+## Results
+![sample image 6](./doc/images/6.jpeg "sample image 6")
+![sample image 3](./doc/images/3.jpeg "sample image 3")
+![sample image 5](./doc/images/5.jpeg "sample image 5")
+![sample image 1](./doc/images/1.png "sample image 1")
+![sample image 2](./doc/images/2.png "sample image 2")
+![sample image 4](./doc/images/4.jpeg "sample image 4")
+
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
 # pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -25,17 +25,8 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
 # pnpm
 pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -43,33 +34,6 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
 # pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+pnpm run generate
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
